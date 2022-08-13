@@ -30,14 +30,31 @@
 
 8)commit the changes
     git commit
-    git commit -m "commit message here"         //
+    git commit -m "commit message here"         
 
 9) see all commits
     git log
+    git log -p -2	// shows last two commits
 
-10)Get files from previous checkpoint
+//git commit -m "Git_commands modified first time"
 
+10)Get files from previous checkpoint				//mostly use to switch between branches
+    git checkout filename    					//gets particular file
+    git checkout -f						//gets all files
+    git checkout 0f14aa15e907a7ea71aaa+64be0d9df5c04374b05	//hashcode of previous commit
     
+   git checkout master		
+
+11)Compare files
+	git diff		//shows difference between stagging area file  and modified file
+	git diff --staged	//staging area vs last commit
+	git diff 0f14aa15e907a7ea71aaa64be0d9df5c04374b05 94dbd3de29f0858407dc41fdf569105a09c78380
+	'
+12)commit directly without adding stagging area
+	git commit -a -m "commited directly"    
+
+
+
 
 
 
