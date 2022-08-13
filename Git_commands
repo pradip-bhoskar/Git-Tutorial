@@ -21,6 +21,7 @@
 
 6)check git status
     git status
+    git status -s	//gives summary of status
 
 7)Add file to staging area
     git add filename
@@ -56,6 +57,9 @@
 13) remove file
 	git rm --cached filename 	//removes the file from stagging area
 	git rm -f filename 		//removes file from stagging area as well as disk
+	
+14).gitignore
+	touch .gitignore 	//used to ignore files 	
 
 
 
