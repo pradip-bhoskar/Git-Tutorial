@@ -52,6 +52,10 @@
 	'
 12)commit directly without adding stagging area
 	git commit -a -m "commited directly"    
+	
+13) remove file
+	git rm --cached filename 	//removes the file from stagging area
+	git rm -f filename 		//removes file from stagging area as well as disk
 
 
 
