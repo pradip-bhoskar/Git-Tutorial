@@ -66,6 +66,10 @@
  	git branch pradip_branch	//creates a branch
  	git checkout pradip_branch	//switch branch
 
+	git checkout -b pradip_sub_branch 	//create as well as switches branch
+
+16) merge the branch
+	git merge pradip_sub-branch	//pradip_sub_branch is merged with pradip_branch 
 
 
 
