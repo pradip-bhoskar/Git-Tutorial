@@ -20,4 +20,33 @@
     ls -lart            //list hidden files also
 
 6)check git status
-    fit status
+    git status
+
+7)Add file to staging area
+    git add filename
+    eg. git add Git_commits
+
+    git add -A          //adds all files at a time in staging area
+
+8)commit the changes
+    git commit
+    git commit -m "commit message here"         //
+
+9) see all commits
+    git log
+
+10)Get files from previous checkpoint
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
