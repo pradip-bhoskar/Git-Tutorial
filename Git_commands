@@ -1,0 +1,23 @@
+1)install git in linux
+	sudo apt-get install git
+
+2)check git version
+	git -- version
+
+3)set username and email id
+	git config --global user.name "Pradip Bhoskar"
+	git config user.name
+
+	git config --global user.email "pradipbhoskar1997@gmail.com"
+	git config user.email
+
+4)Create a new repository
+    git init               //makes current directory as git repository
+    git init DirectoryName  //makes subdirectory as git repository
+
+5)List files
+    ls
+    ls -lart            //list hidden files also
+
+6)check git status
+    fit status
