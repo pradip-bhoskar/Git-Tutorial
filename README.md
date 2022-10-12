@@ -1,0 +1,3 @@
+# Git-Tutorial
+The first repository on github...
+This repository will help you to use git and GitHub.
